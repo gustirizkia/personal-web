@@ -1,6 +1,6 @@
-import React from 'react';
-import { BsFillPatchCheckFill } from 'react-icons/bs';
-import './experience.css';
+import React from "react";
+import { BsFillPatchCheckFill } from "react-icons/bs";
+import "./experience.css";
 
 const Experience = () => {
   return (
@@ -11,7 +11,7 @@ const Experience = () => {
         <div className="experience__frontend">
           <h3>Front-end Development</h3>
           <div className="experience__content">
-          <article className="experience__details">
+            <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>HTML</h4>
             </article>
@@ -25,11 +25,15 @@ const Experience = () => {
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>React</h4>
+              <h4>React & Nextjs</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>Redux</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Vuejs & Nuxtjs</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
@@ -39,40 +43,32 @@ const Experience = () => {
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>Tailwind</h4>
             </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Bootstrap</h4>
+            </article>
           </div>
         </div>
         <div className="experience__backend">
           <h3>Back-end Development</h3>
           <div className="experience__content">
-          <article className="experience__details">
+            <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Ruby</h4>
+              <h4>Laravel</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Ruby on Rails</h4>
+              <h4>SQL</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>PostgreSQL</h4>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Swagger</h4>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>RSpec</h4>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Git/GitHub</h4>
+              <h4>Flask</h4>
             </article>
           </div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Experience
+export default Experience;

@@ -1,73 +1,96 @@
-import React from 'react';
-import IMG1 from '../../assets/bookstore.png';
-import IMG2 from '../../assets/todo.png';
-import IMG3 from '../../assets/shelter.png';
-import IMG4 from '../../assets/fake.png';
-import IMG5 from '../../assets/news.png';
-import IMG6 from '../../assets/math.png';
+import React from "react";
+import IMG1 from "../../assets/bookstore.png";
+import IMG2 from "../../assets/gudangin.png";
+import IMG3 from "../../assets/bkpi.png";
+import IMG4 from "../../assets/warisan.png";
+import IMG5 from "../../assets/taco.png";
+import IMG6 from "../../assets/detakpolitika.png";
+import IMG7 from "../../assets/filterpedia.png";
+import IMG8 from "../../assets/hmi.png";
 
-import './portfolio.css';
+import "./portfolio.css";
 
 const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
-      title: 'Bookstore',
+      title: "Belanja Warisan",
       img: IMG1,
       description:
-        'BookStore app that allows users to store books and update progress',
-      technologies: 'React | Redux | Ruby on Rails',
-      link: 'https://melodic-boba-111583.netlify.app/',
-      github: 'https://github.com/Meri-MG/bookstore---react',
+        "Belanja warisan website untuk member warisan melakukan repeat order",
+      technologies: "Laravel | Bootstrap | Jquery",
+      link: "https://belanja.warisan.co.id",
+      github: "https://belanja.warisan.co.id",
     },
     {
       id: 2,
-      title: 'FakeStore',
+      title: "Warisan",
       img: IMG4,
       description:
-        'FakeStore app that provides information about available products and their details',
-      technologies: 'React | Redux',
-      link: 'https://fakestore-metrics.netlify.app/',
-      github: 'https://github.com/Meri-MG/Fakestore---react',
+        "Warisan platform dropshiper untuk mencari produk dari perusahaan",
+      technologies: "Laravel | Bootstrap | Jquery",
+      link: "https://warisan.co.id/",
+      github: "https://warisan.co.id",
     },
     {
       id: 3,
-      title: 'To-Do-App',
+      title: "Gudangin",
       img: IMG2,
-      description: 'User friendly app to plan your day and manage tasks',
-      technologies: 'JavaScript | Webpack',
-      link: 'https://meri-mg.github.io/To-Do-List/dist/',
-      github: 'https://github.com/Meri-MG/To-Do-List',
+      description:
+        "manajemen gudang penyimpanan dan quality controlnya, packing, pengiriman, manajemen stok barang, apapun jenis dan besarnya usahamu. Jadi kamu bisa fokus ke pengembangan bisnis dan inovasi produk",
+      technologies: "Laravel | Bootstrap | Jquery",
+      link: "https://gudangin.id/",
+      github: "https://gudangin.id/",
     },
     {
       id: 4,
-      title: 'Shelter',
+      title: "BKPI",
       img: IMG3,
       description:
-        'Fully responsive interactive website built based on Figma design',
-      technologies: 'JavaScript | CSS',
-      link: 'https://meri-mg.github.io/shelter/pages/main/index.html',
-      github: 'https://github.com/Meri-MG/shelter',
+        "BKPI digunakan oleh Care Plus Indonesia untuk melakukan pelatihan psikologi karyawan",
+      technologies: "Reactjs | Bootstrap | Laravel",
+      link: "https://oke.link",
+      github: "https://oke.link",
     },
     {
       id: 5,
-      title: 'World News',
+      title: "TACO Visualizer",
       img: IMG5,
       description:
-        'Fully responsive interactive website built based on Adobe XD design',
-      technologies: 'JavaScript | CSS',
-      link: 'https://meri-mg.github.io/Unilab-world-news/',
-      github: 'https://github.com/Meri-MG/Unilab-world-news',
+        "Digunakan untuk melakukan visulisasi rumah user dengan lantai taco",
+      technologies: "Reactjs | CSS | Laravel | Flask",
+      link: "https://dev-eza.yokesen.com/",
+      github: "https://dev-eza.yokesen.com",
     },
     {
       id: 6,
-      title: 'Math Resource',
+      title: "Detakpolitika",
       img: IMG6,
       description:
-        'Real-world group project which is still in progress and will provide educational platform for future young developers',
-      technologies: 'JavaScript | Scss | Python',
-      link: 'https://lukinoo.github.io/math-resource/',
-      github: 'https://github.com/lukinoo/math-resource',
+        "Detakpolitika portal berita milik Persatuan Wartawan Indonesia",
+      technologies: "Nextjs | Tailwindcss | Laravel",
+      link: "https://detak-politika.vercel.app/",
+      github: "https://github.com/gustirizkia/detak-politika-nextjs",
+    },
+    {
+      id: 6,
+      title: "Filterpedia",
+      img: IMG7,
+      description:
+        "Filterpedia Ecommerce milik PT. Cipta Aneka Air saya sebagai Frontend Developer",
+      technologies: "Nuxtjs | Tailwindcss | Laravel",
+      link: "https://filterpedia.co.id/",
+      github: "https://github.com/gustirizkia/frontend-filterpedia-v-2",
+    },
+    {
+      id: 6,
+      title: "HMI Komfaktek",
+      img: IMG8,
+      description:
+        "Website Organisasi saya untuk melakukan perekrutan anggota baru",
+      technologies: "Nuxtjs | Tailwindcss | Laravel",
+      link: "https://hmi-komfaktek.vercel.app/",
+      github: "https://github.com/gustirizkia/projek-nuxtjs-ssr",
     },
   ];
 
