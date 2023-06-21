@@ -59,8 +59,8 @@ const Portfolio = () => {
       description:
         "Digunakan untuk melakukan visulisasi rumah user dengan lantai taco",
       technologies: "Reactjs | CSS | Laravel | Flask",
-      link: "https://dev-eza.yokesen.com/",
-      github: "https://dev-eza.yokesen.com",
+      link: "https://visualizer.taco.co.id/",
+      github: "https://visualizer.taco.co.id/",
     },
     {
       id: 6,

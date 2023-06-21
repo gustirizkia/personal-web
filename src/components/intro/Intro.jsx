@@ -29,11 +29,12 @@ const Intro = () => {
             </article>
           </div>
           <p>
-            Saya memiliki pengalaman lebih dari 2 tahun terkait web developer
-            dan tiga perusahaan saya juga sangat bisa bekerja dalam tim dengan
-            di bantunya pengalaman di tiga perusahaan berbeda membuat saya
-            banyak belajar terkait komunikasi, kerja sama tim, mentalitas diri
-            serta problem solving
+            Hello! :D I’m a Full Stack Developer with extensive server-side web
+            development experience , an analytical approach, and can easily work
+            with a team and has an insatiable desire to learn new skills.
+            Skilled in PHP, Laravel, jQuery, MySQL, JavaScript, and Well-versed
+            in Front-End development (React/Nextjs) also experienced as Linux
+            System Administrator
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
